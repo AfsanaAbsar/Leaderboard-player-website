@@ -1,7 +1,9 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+    overflow-x: hidden;
 }
+
 .header{
     background-color: #562EFF;
     color: white;
@@ -12,10 +14,45 @@ body{
     font-size: 25px;
     font-weight: 500;
 }
-
+.container{
+    border-radius: 10px;
+}
 .banner{
     background-color: white;
 }
 .row h5{
     margin-left: 10px;
 }
+
+
+.course{
+    background-color: white;
+    box-shadow:  -1px 4px 13px -5px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    
+    
+    
+    
+}
+.course img{
+    margin-bottom: 10px;
+    content: inherit;
+}
+.course-author{
+    color: #ED6B4F;
+}
+.fill-star{
+   color: #FFC014;
+}
+.empty-star{
+     color: #AEAEAE;
+}
+.rating{
+     color: #A2A2A2;
+}
+.time-duration{
+    background-color: #f5b5bd;
+    color: #FF4A60;
+    
+}
+
